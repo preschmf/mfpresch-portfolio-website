@@ -1,0 +1,20 @@
+.project-card {
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px solid gray !important;
+  width: 18rem;
+}
+
+.project-image {
+  height: 190px;
+}
+
+.project-card .btn-tertiary {
+  border-color: white;
+  color: white;
+}
+
+.project-card .btn-tertiary:hover {
+  background-color: rgba(45, 45, 45, 0.5);
+  border-color: white;
+}

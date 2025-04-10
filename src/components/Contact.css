@@ -1,0 +1,30 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  color: white !important;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30rem;
+  margin-top: 2rem;
+}
+
+.button-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-container .btn-tertiary {
+  border-color: white;
+  color: white;
+  min-width: 20rem;
+  min-height: 5rem;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.contact-container .btn-tertiary:hover {
+  background-color: rgba(45, 45, 45, 0.5);
+  border-color: white;
+  color: white;
+}

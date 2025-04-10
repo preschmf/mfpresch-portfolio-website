@@ -1,0 +1,48 @@
+.home-container {
+  display: flex;
+  color: white !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15rem;
+  max-width: 80rem;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.typewriter {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.typewriter h1 {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  color: white !important;
+  overflow: hidden;
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
