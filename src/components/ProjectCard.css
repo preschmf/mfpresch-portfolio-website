@@ -5,8 +5,12 @@
   width: 18rem;
 }
 
-.project-image {
-  height: 190px;
+.card-image {
+  height: 185px;
+}
+
+.card-text {
+  height: 6rem;
 }
 
 .project-card .btn-tertiary {

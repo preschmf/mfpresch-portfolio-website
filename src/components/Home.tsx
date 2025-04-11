@@ -1,6 +1,7 @@
 import ScrollAnimation from 'react-animate-on-scroll'
-
+import Contact from './Contact'
 import './Home.css'
+import './Contact.css'
 
 const Home = () => {
   return (
@@ -9,16 +10,17 @@ const Home = () => {
         <div className='typewriter'>
           <h1>Michael Presch</h1>
         </div>
-        <ScrollAnimation animateIn='fadeIn'>
+        <ScrollAnimation animateIn='fadeInUp'>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I have over 7 years
+            of experience as a software engineer in both modern front-end and
+            back-end technologies, primarily utilizing JavaScript, C#, relational DBs, SQL DBs
+            and AWS. I look to produce high-quality, reusable code. My expertise
+            extends to maintaining robust CI/CD pipelines using tools like
+            Jenkins and GitHub Actions, as well as implementing automated
+            testing tools such as Jest and Storybook.
           </p>
+          <Contact />
         </ScrollAnimation>
       </div>
     </div>

@@ -1,4 +1,5 @@
 body {
   background-image: url('../src/assets/images/background2.jpg');
+  background-attachment: fixed;
   font-family: Roboto, sans-serif !important;
 }

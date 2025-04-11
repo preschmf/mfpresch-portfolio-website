@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react'
 const SiteNavBar = () => {
   const [activeSection, setActiveSection] = useState('home')
   const [scrolled, setScrolled] = useState(false)
+  const isMobile = window.matchMedia('(max-width: 1919px)').matches
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,7 +39,7 @@ const SiteNavBar = () => {
     <Navbar expand='lg' className={`${scrolled ? 'scrolled' : ''}`}>
       <Container>
         <Nav className='mfpresch-nav d-flex flex-row'>
-          <Navbar.Brand href='#home'>
+          <Navbar.Brand href='#home' className='brand-section'>
             <img
               alt=''
               src={mpLogo}

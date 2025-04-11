@@ -12,10 +12,10 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, projectLink, splashImage }) => {
   return (
     <Card className='project-card'>
-      <Card.Img className='project-image' variant='top' src={splashImage} />
+      <Card.Img className='card-image' variant='top' src={splashImage} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text className='card-text'>{description}</Card.Text>
         <Button variant='tertiary' href={projectLink} target='_blank'>
           View Project
         </Button>

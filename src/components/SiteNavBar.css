@@ -9,9 +9,6 @@
   .mfpresch-nav a {
     color: white !important;
   }
-  .mfpresch-nav a:hover {
-    color: gray !important;
-  }
   .mfpresch-nav a.active {
     color: rgb(255, 255, 255) !important;
   }
@@ -30,6 +27,9 @@
   }
   .mfpresch-nav .nav-link.active:hover {
     color: rgb(255, 255, 255) !important;
+  }
+  .brand-section.active {
+    color: white !important;
   }
   .socials-icons {
     display: flex;

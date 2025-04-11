@@ -1,18 +1,23 @@
 .skills-container {
     display: flex;
     flex-direction: column;
-    color: white !important;
     max-width: 80rem;
+    min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20rem;
+}
+
+.skills-content {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills-header {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
-    font-size: 90px;
+    font-size: 5rem;
     color: white !important;
 }
 
@@ -26,17 +31,9 @@
   width: 90%;
 }
 
-.nav-link.active {
-    border-bottom-color: transparent !important;
-}
-
-.nav-link:hover {
-    border-bottom-color: transparent !important;
-}
-
 .skills-tabs {
   background-color: transparent !important;
-  width: 18rem;
+  width: 30rem;
   border-color: transparent !important;
 }
 
@@ -47,6 +44,12 @@
 .skills-tabs .nav-link:hover {
   background-color: rgba(45, 45, 45, 0.5);
   color: white !important;
+  border-radius: 5px;
+}
+
+.nav-link.active {
+  background-color: rgba(45, 45, 45, 0.5) !important;
+  border-radius: 5px;
 }
 
 .skills-layout {
@@ -55,20 +58,24 @@
   height: auto;
 }
 
-.skills-content {
+.skills-tab-content {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding-top: 1rem;
-  background-image: linear-gradient(to top right, rgba(25, 25, 25, 0.5), rgba(60, 60, 60, 0.5));  
-  border-radius: 5px;
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.1), rgba(49, 49, 49, 0.5));  
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 640px) {
+  .skills-header {
+    font-size: 4rem;
+  }
   .skills-layout {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -91,6 +98,9 @@
 }
 
 @media screen and (min-width: 800px) {
+  .skills-header {
+    margin-top: 10rem;
+  }
   .skills-layout {
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
@@ -107,7 +117,7 @@
     gap: 50px;
   }
   .skills-layout img {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
   }
 }
