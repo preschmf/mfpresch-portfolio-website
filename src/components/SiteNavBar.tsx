@@ -10,7 +10,6 @@ import { useEffect, useState } from 'react'
 const SiteNavBar = () => {
   const [activeSection, setActiveSection] = useState('home')
   const [scrolled, setScrolled] = useState(false)
-  const isMobile = window.matchMedia('(max-width: 1919px)').matches
 
   useEffect(() => {
     const handleScroll = () => {
