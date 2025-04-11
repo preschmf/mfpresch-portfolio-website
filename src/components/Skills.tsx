@@ -44,10 +44,6 @@ const frontEndSkills: SkillLogoProps[] = [
   },
   {
     source:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg',
-  },
-  {
-    source:
       'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-plain-wordmark.svg',
   },
   {
@@ -74,12 +70,21 @@ const frontEndSkills: SkillLogoProps[] = [
 const backEndSkills = [
   {
     source:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg',
+    whiteShift: true,
+  },
+  {
+    source:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-plain-wordmark.svg',
+    whiteShift: true,
+  },
+  {
+    source:
       'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg',
   },
   {
     source:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg',
-    whiteShift: true,
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg',
   },
   {
     source:
@@ -89,11 +94,6 @@ const backEndSkills = [
   {
     source:
       'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg',
-  },
-  {
-    source:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-plain-wordmark.svg',
-    whiteShift: true,
   },
   {
     source:
