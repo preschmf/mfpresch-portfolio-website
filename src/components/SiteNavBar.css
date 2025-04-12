@@ -1,45 +1,79 @@
 .mfpresch-nav {
-    background-color: transparent !important;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    width: 100%;
-    transition: transform 0.3s ease;
+  background-color: transparent !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: rgb(255, 255, 255, 1) !important;
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(100);
+}
+
+.collapse-content {
+  max-height: 0rem;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  .collapse-content {
+    max-height: 10rem;
   }
-  .mfpresch-nav a {
-    color: white !important;
-  }
-  .mfpresch-nav a.active {
-    color: rgb(255, 255, 255) !important;
-  }
-  .mfpresch-nav a.active:hover {
-    color: rgb(255, 255, 255) !important;
-  }
-  .mfpresch-nav .nav-link {
-    color: white !important;
-    margin: 0 10px;
-  }
-  .mfpresch-nav .nav-link:hover {
-    color: gray !important;
-  }
-  .mfpresch-nav .nav-link.active {
-    color: rgb(255, 255, 255) !important;
-  }
-  .mfpresch-nav .nav-link.active:hover {
-    color: rgb(255, 255, 255) !important;
-  }
-  .brand-section.active {
-    color: white !important;
-  }
-  .socials-icons {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-  }
-  .socials-icons img {
-    width: 24px;
-    height: 24px;
-  }
-  .socials-icons img:hover {
-    filter: brightness(0.8);
-  }
+}
+
+.collapse-content.show {
+
+  max-height: 20rem;
+}
+
+.mfpresch-nav a {
+  color: white !important;
+}
+
+.mfpresch-nav a.active:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+.mfpresch-nav .nav-link {
+  color: white !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mfpresch-nav .nav-link:hover {
+  color: gray !important;
+}
+
+.mfpresch-nav .nav-link.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.mfpresch-nav .nav-link.active:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+.brand-section.active {
+  color: white !important;
+}
+
+.socials-icons {
+  display: flex;
+  gap: 15px;
+
+  align-items: center;
+}
+
+.socials-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.socials-icons img:hover {
+  filter: brightness(0.6);
+}

@@ -9,9 +9,17 @@
 }
 
 .button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  }
 }
 
 .contact-container .btn-tertiary {
@@ -19,8 +27,10 @@
   color: white;
   min-width: 20rem;
   min-height: 5rem;
-  margin: 1rem;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-container .btn-tertiary:hover {
