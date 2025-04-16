@@ -14,9 +14,10 @@ This app contains links to my socials, an email link that uses the default email
 ## Screenshots
 
 ### Desktop:
-![image](https://github.com/user-attachments/assets/424893bd-8a45-41c3-96d6-884d9b8f0ab2)
+![image](https://github.com/user-attachments/assets/cadf75e9-efdb-490d-bca5-66fcc1def4ca)
 
 ### Mobile:
-![image](https://github.com/user-attachments/assets/dce76209-e70d-414b-965b-4c37130c3fe4)
+![image](https://github.com/user-attachments/assets/0fc8fbc8-3145-40b3-acf9-908ee6c0f3b1)
+
 
 
