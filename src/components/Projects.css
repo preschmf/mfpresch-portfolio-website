@@ -38,3 +38,11 @@
 .projects-header {
   color: white;
 }
+
+.link-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}

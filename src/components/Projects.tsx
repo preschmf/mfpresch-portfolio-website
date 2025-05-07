@@ -17,7 +17,7 @@ const Projects = () => {
               description={
                 'Node.js and Express tool that sends alerts using the Microsoft Graph API, and the GitHub Enterprise API.'
               }
-              projectLink={'https://github.com/preschmf/preschmf-pr-alerts'}
+              repoLink={'https://github.com/preschmf/preschmf-pr-alerts'}
               splashImage={gitHubTeamsApiImage}
             />
 
@@ -26,7 +26,8 @@ const Projects = () => {
               description={
                 'Full-stack task tracker app made with React, Fastify, an SQLite DB, and OAuth 2.0 for authentication.'
               }
-              projectLink={'https://github.com/preschmf/preschmf-task-tracker'}
+              repoLink={'https://github.com/preschmf/preschmf-task-tracker'}
+              projectLink={'https://preschmf-task-tracker.up.railway.app/'}
               splashImage={taskTrackerImage}
             />
 
@@ -35,7 +36,7 @@ const Projects = () => {
               description={
                 'Portfolio website created with React, CSS3, and deployed to netlify.'
               }
-              projectLink={
+              repoLink={
                 'https://github.com/preschmf/mfpresch-portfolio-website'
               }
               splashImage={portfolioSiteImage}
