@@ -24,7 +24,7 @@ const Projects = () => {
             <ProjectCard
               title={'Task Tracker App'}
               description={
-                'Full-stack task tracker app made with React, Fastify, an SQLite DB, and OAuth 2.0 for authentication.'
+                'Full-stack task tracker app made with React, a Fastify server, Postgres DB, and OAuth 2.0 for authentication.'
               }
               repoLink={'https://github.com/preschmf/preschmf-task-tracker'}
               projectLink={'https://preschmf-task-tracker.up.railway.app/'}
@@ -34,7 +34,7 @@ const Projects = () => {
             <ProjectCard
               title={'Portfolio Website'}
               description={
-                'Portfolio website created with React, CSS3, and deployed to netlify.'
+                'Responsive portfolio website created with React, CSS3, and Vite.'
               }
               repoLink={
                 'https://github.com/preschmf/mfpresch-portfolio-website'
